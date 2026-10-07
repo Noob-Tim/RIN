@@ -1,0 +1,381 @@
+{
+  "character": "RIN",
+  "version": "1.2",
+  "date": "2026-10-07",
+  "identity_basis": "canonical facial geometry; hair and styling variable",
+  "new_reference_images": 40,
+  "additional_repeat_test_images": 3,
+  "pending_images": 0,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 3170,
+      "sha256": "6442902bbfe22d7191a31b0225af5d6272c40bea70f419a1a5781fc89ecd60c3"
+    },
+    {
+      "path": "RIN_参考图册.html",
+      "size_bytes": 2579925,
+      "sha256": "edf5901a0942a9cf62e585135b6353cd9c626a32f894564cd4b155516b8bfbbd"
+    },
+    {
+      "path": "RIN_扩充提示词.json",
+      "size_bytes": 342665,
+      "sha256": "52f583fbde33372673798c5829985b72d1842b1a3716f727844cd640081f7309"
+    },
+    {
+      "path": "RIN_扩充索引.md",
+      "size_bytes": 7740,
+      "sha256": "5d13bb04070f818b44d515d71b4686c15d0f43b4b0ca82fd641699d633da7401"
+    },
+    {
+      "path": "RIN_扩充验收记录.md",
+      "size_bytes": 3569,
+      "sha256": "a004b5783ae48bb90771f5f7ec5c486ebe9d42a8211d2b10c40d0969f96e423c"
+    },
+    {
+      "path": "RIN_母参考图.png",
+      "size_bytes": 2752101,
+      "sha256": "17d18a087c1d6bc9359754708a427d7e32316cffce45da9207b88fe489cac68a"
+    },
+    {
+      "path": "RIN_生成提示词记录.md",
+      "size_bytes": 225019,
+      "sha256": "34862cd1de3636fc3f29959dcbe4001550bcf06350658ddf5c2834baa9f9c383"
+    },
+    {
+      "path": "RIN_角色固定提示词.md",
+      "size_bytes": 14321,
+      "sha256": "7615ba2157da53bc843b0ab382036d733b08853688097dc09e4d6b17ccd48982"
+    },
+    {
+      "path": "RIN_调用模板.md",
+      "size_bytes": 2233,
+      "sha256": "f4daf73d842b647a88293fc50c4a971f95af8713445435c1ae3a4c346cd6d70e"
+    },
+    {
+      "path": "RIN_重复复现检查.md",
+      "size_bytes": 4726,
+      "sha256": "9cd744cdf9975f732da4051f5b07edb0bb839e1c0b2a3e18eaff5d18a0076912"
+    },
+    {
+      "path": "combinations/C01_黑短发雨夜街头.png",
+      "size_bytes": 3075946,
+      "sha256": "e6ecdb470d39d8bca3c7b63093a9980aeb6624df5302f0b2e50d103e39cd0e34"
+    },
+    {
+      "path": "combinations/C02_银短发图书馆通勤.png",
+      "size_bytes": 2219406,
+      "sha256": "f2843271145dd606688fb1b8a18d1a3a39f8bc09476904233428e640ea7b08b9"
+    },
+    {
+      "path": "combinations/C03_金发海边夏装.png",
+      "size_bytes": 2642122,
+      "sha256": "bb3e63008f11960e3f23cfe87d4898c014d3420bb5255fddf2026dd095c61add"
+    },
+    {
+      "path": "combinations/C04_紫卷发温室约会.png",
+      "size_bytes": 2845054,
+      "sha256": "923558971ce0ebe82628b9542cf90252937ea657b9b47fff99fcdce7c7f196a0"
+    },
+    {
+      "path": "combinations/C05_棕编发雪夜冬装.png",
+      "size_bytes": 2722747,
+      "sha256": "aadb967f45f64f72f6b9266de3562e97851bad43ee58971f808440dc17b66dab"
+    },
+    {
+      "path": "combinations/C06_粉马尾车站运动装.png",
+      "size_bytes": 2439528,
+      "sha256": "c6118e8a05a8fc3aec82776f5acbd64537b7164f793b0a6b90dae071490f216a"
+    },
+    {
+      "path": "combinations/C07_酒红短发咖啡馆摇滚穿搭.png",
+      "size_bytes": 2643481,
+      "sha256": "c546b9c5a992d2daded3531d16e277e390de7d34a74e991c942e64996fe94843"
+    },
+    {
+      "path": "combinations/C08_黑长发夜景晚礼服.png",
+      "size_bytes": 2642525,
+      "sha256": "df3a9ceaaea11c731c8398097e5aa52f2204b0e34233d85b305b0b8a6ae3bc0d"
+    },
+    {
+      "path": "expressions/E01_温柔微笑.png",
+      "size_bytes": 2886500,
+      "sha256": "de0a2f636f0a595ad0cc617b648f5ba42e7899538289008c22a6735c5e81c7e9"
+    },
+    {
+      "path": "expressions/E02_开心笑出声.png",
+      "size_bytes": 2728867,
+      "sha256": "85aa1d22f8fdc123b22c679cbc5fe97465931fefe8c041acd4efc3489301d38f"
+    },
+    {
+      "path": "expressions/E03_惊讶.png",
+      "size_bytes": 2708364,
+      "sha256": "8861f95abcbd310d325de3377f7681f03341b95b31d5986e9d62d7981bfc2fe1"
+    },
+    {
+      "path": "expressions/E04_克制生气.png",
+      "size_bytes": 2772069,
+      "sha256": "0c80ddc9c6738a648e5b9a1d3084591a240a6a1b9be471263b3532e201782d11"
+    },
+    {
+      "path": "expressions/E05_难过含泪.png",
+      "size_bytes": 2792178,
+      "sha256": "3f875eb3fa136a17f6547bb2bb1b8b74564dd9179d8c9068e26b69e90e3ef6fa"
+    },
+    {
+      "path": "expressions/E06_害羞.png",
+      "size_bytes": 2760246,
+      "sha256": "344d1c463e8c82049bef6a44e6790b997790e74d7db9f194337d83e29554efdb"
+    },
+    {
+      "path": "expressions/E07_认真坚定.png",
+      "size_bytes": 2693138,
+      "sha256": "5633d2eb4dee0c1bec7b25bdb73935d605b42ef82cb9e507d1a896ae130c943b"
+    },
+    {
+      "path": "expressions/E08_困倦.png",
+      "size_bytes": 2690091,
+      "sha256": "e9a6cafa52be6959506b7f6a49bab8352bb8b6794e817ba2de3cb777055b1134"
+    },
+    {
+      "path": "gallery/RIN_C_五官对照.png",
+      "size_bytes": 2208097,
+      "sha256": "826e57a0269b70720ad4107761892063c290d8eace7796a711e2e6d96057c8a1"
+    },
+    {
+      "path": "gallery/RIN_C_总览.jpg",
+      "size_bytes": 1030521,
+      "sha256": "038ced08cbdd57fd2712db99dfaff923bfcbbf0132bb5f48258fb83ad385704c"
+    },
+    {
+      "path": "gallery/RIN_E_五官对照.png",
+      "size_bytes": 2274513,
+      "sha256": "805f003905c92f4059a2d5440e83ea28ffdef85ab1413b5beaca872b0aa4f6d2"
+    },
+    {
+      "path": "gallery/RIN_E_总览.jpg",
+      "size_bytes": 505778,
+      "sha256": "4fea5e1222ea8cc5e644603a8d3e04d1d9127e8de27b38f6481b1c75615e7692"
+    },
+    {
+      "path": "gallery/RIN_H_五官对照.png",
+      "size_bytes": 2548946,
+      "sha256": "3421f4bcd6dba6f5a698b214447cd996578bfce1c572ad0a217d5df1c6348dc9"
+    },
+    {
+      "path": "gallery/RIN_H_总览.jpg",
+      "size_bytes": 411538,
+      "sha256": "bbd8cbe47bc59de93bd5d3751294e2647bbb4560e5444d31465a37481fbfdff1"
+    },
+    {
+      "path": "gallery/RIN_O_五官对照.png",
+      "size_bytes": 2114813,
+      "sha256": "1f858fd06d82eca4202d7cc6b3f14ad4e2584b9d1b0cdf41ae458c2a0478ae45"
+    },
+    {
+      "path": "gallery/RIN_O_总览.jpg",
+      "size_bytes": 433613,
+      "sha256": "6314c1c84445030e2d864e07432bc5c9bd6a6323f5e50972570b7e887d974b88"
+    },
+    {
+      "path": "gallery/RIN_R_五官对照.png",
+      "size_bytes": 1317003,
+      "sha256": "8a32a5a9d69dcbcb1e5615530cb5efd36f8bcfe61c6fc133255e8e504c3dcad5"
+    },
+    {
+      "path": "gallery/RIN_R_总览.jpg",
+      "size_bytes": 621998,
+      "sha256": "ce44f93dbd46212e6385067ae699df763c0d84e8d0aa9fd45b9d9137d00e0f74"
+    },
+    {
+      "path": "gallery/RIN_S_五官对照.png",
+      "size_bytes": 2287566,
+      "sha256": "3d42e93551bf2e89200dce03926e5c3b2a5651178758bde51b1fabb1e57c83d9"
+    },
+    {
+      "path": "gallery/RIN_S_总览.jpg",
+      "size_bytes": 1034413,
+      "sha256": "8bf71425b431629151b4db0bd2f84ef6a3a228e24d44ad11eecb2b690c894ae1"
+    },
+    {
+      "path": "hairstyles/H01_黑色齐下巴短发.png",
+      "size_bytes": 2100397,
+      "sha256": "ecab8ec4f376623dbe16ac983284bfaf4e0f32cf10b965cf21aaf2290f31e9db"
+    },
+    {
+      "path": "hairstyles/H02_银白短层次发.png",
+      "size_bytes": 2021339,
+      "sha256": "8d32553406e31988f024aa785f1a0395566e99e26d7884864d28800db13b70dc"
+    },
+    {
+      "path": "hairstyles/H03_粉色高马尾.png",
+      "size_bytes": 2439786,
+      "sha256": "cd68c287f24bef87491129973b706a8c8aa3b03881d86ac4c70acc24613774af"
+    },
+    {
+      "path": "hairstyles/H04_栗棕侧编发.png",
+      "size_bytes": 2361160,
+      "sha256": "82cbace2477b47df7733774adf48d4362937180ace7dd9e571da9738594ac67b"
+    },
+    {
+      "path": "hairstyles/H05_蓝黑长直发.png",
+      "size_bytes": 2601262,
+      "sha256": "231eacc92f39ca90daf9647c2b937b760de954380fb9c38cc44409927a90a394"
+    },
+    {
+      "path": "hairstyles/H06_淡紫中长卷发.png",
+      "size_bytes": 2248536,
+      "sha256": "24eadb8ccc8659bdb34ffed7f2a8634213ccb657d8fd8f21b83b8962bda05fe7"
+    },
+    {
+      "path": "hairstyles/H07_蜂蜜金低盘发.png",
+      "size_bytes": 2307125,
+      "sha256": "2091413e1dda476dabb690fb8057be08c609c0475f28d3109a8259a774c5d881"
+    },
+    {
+      "path": "hairstyles/H08_酒红短狼尾.png",
+      "size_bytes": 2155579,
+      "sha256": "df08d3b62f4414869c38a532366f3958b425a7fae80ff7cb6f5df0e9f8d97ea4"
+    },
+    {
+      "path": "originals/RIN_母参考图_原版.png",
+      "size_bytes": 2819354,
+      "sha256": "40229a8a2c81cdf4599f8d0cafe007cbadaa26a91061c5d54b4d26ef2596b880"
+    },
+    {
+      "path": "originals/RIN_角色固定提示词_原版.md",
+      "size_bytes": 4875,
+      "sha256": "9f3dab734a81265b43d8044cf828ecc09c7be9c112eb575a29c00d873e0279f6"
+    },
+    {
+      "path": "outfits/O01_哥特蕾丝.png",
+      "size_bytes": 1858836,
+      "sha256": "8afde11778b0a416cbdc8aef7ccf55315df2be80be42b27a39a6e1c1026c9f69"
+    },
+    {
+      "path": "outfits/O02_日常针织.png",
+      "size_bytes": 1923062,
+      "sha256": "8f134e542e153e0500a8af7a6aa848a6c0fc6b01a2e94eb0530a60035ff1e164"
+    },
+    {
+      "path": "outfits/O03_街头机能.png",
+      "size_bytes": 1902328,
+      "sha256": "ce52cc288b2861ea249b1880c10790f60044026fb044658dc488d2a0716f918b"
+    },
+    {
+      "path": "outfits/O04_通勤西装.png",
+      "size_bytes": 1793254,
+      "sha256": "a8c9fc797434237c7871051ab3058d609755c972d0d42573876eb6faa1b704e4"
+    },
+    {
+      "path": "outfits/O05_运动休闲.png",
+      "size_bytes": 1786791,
+      "sha256": "4e7e1d33d457770cc8467caf5a84da96554f218f0fbdc28b20d88ed465e20a0b"
+    },
+    {
+      "path": "outfits/O06_晚宴长裙.png",
+      "size_bytes": 1775785,
+      "sha256": "b7b7bcd0ab911b9cb1e65a4f459bd284651d9ef7715010f8276a5793c3a219fc"
+    },
+    {
+      "path": "outfits/O07_和风日常.png",
+      "size_bytes": 1976497,
+      "sha256": "48fc3f67620e493fe51ee21d2e44fa8e3aa2f44cf591a1525b09a44e997b995b"
+    },
+    {
+      "path": "outfits/O08_冬日大衣.png",
+      "size_bytes": 1847475,
+      "sha256": "c31bc831cd6d637598d91e76e31ca1c26c6dbac6b02e6d0d182d8dbcc63e34ec"
+    },
+    {
+      "path": "references/RIN_三视角参考.png",
+      "size_bytes": 2852824,
+      "sha256": "bf334ef929141c9087f32e336aad7bd943bf7197e5d32e886bd67bf1446b03ee"
+    },
+    {
+      "path": "references/RIN_五官检查图.png",
+      "size_bytes": 2266960,
+      "sha256": "c1a8f908311e3462af5ba95a68ed5e042e5b4817fd5371846dacd3d80259eee1"
+    },
+    {
+      "path": "references/RIN_五官检查图.svg",
+      "size_bytes": 3672368,
+      "sha256": "884aab5827d29e7da29e8da6539f95b5641cbf14a57bf907655d0946272de1f8"
+    },
+    {
+      "path": "repeat_tests/R01_雨夜黑短发独立复现.png",
+      "size_bytes": 3053839,
+      "sha256": "d0aea87255394e8db30c006547278c6476cd7a6e816b9e85bc8510425814ad1a"
+    },
+    {
+      "path": "repeat_tests/R02_雨夜黑短发独立复现.png",
+      "size_bytes": 3133942,
+      "sha256": "c60a3a371fd943f8d5b0cba9ba08a9b1a43dfab806c63cc58d846c5f13abee98"
+    },
+    {
+      "path": "repeat_tests/R03_雨夜黑短发独立复现.png",
+      "size_bytes": 3006338,
+      "sha256": "c0777db4a3a332e38fa79ac0d87404db30a8a79fa4ce25af59eabb5b36feb350"
+    },
+    {
+      "path": "scenes/S01_雨夜霓虹街.png",
+      "size_bytes": 3185294,
+      "sha256": "9c5c75bc04b775ffe5522e7496768784581abf9b13e25e84088a3684a6d1f6ec"
+    },
+    {
+      "path": "scenes/S02_日光咖啡馆.png",
+      "size_bytes": 2798586,
+      "sha256": "3456674a20f510cf359530ddce3739c5cbea86d68f0cbcce2a86470ba35aa665"
+    },
+    {
+      "path": "scenes/S03_车站候车.png",
+      "size_bytes": 2508576,
+      "sha256": "b02787436d3b38e8c0963fdf1d642505df7d39583af8d78d88d0e8674ee62fb5"
+    },
+    {
+      "path": "scenes/S04_旧书店.png",
+      "size_bytes": 2686886,
+      "sha256": "c01547908b0e9e0406f3437439cebf1db884074724009f8743c0aa1d2d100040"
+    },
+    {
+      "path": "scenes/S05_玻璃温室.png",
+      "size_bytes": 3079412,
+      "sha256": "a3d65e047b41ddb66001cb1902039c0bd6b866e343a7a36664caa149be95391b"
+    },
+    {
+      "path": "scenes/S06_海边落日.png",
+      "size_bytes": 2734572,
+      "sha256": "e59f81aa1a646fbd172ad07bcb0c72ddc12ac1fba9e3669c1cb64ac7333bd956"
+    },
+    {
+      "path": "scenes/S07_冬夜集市.png",
+      "size_bytes": 2966760,
+      "sha256": "e7bc669575bb3e00c9c078e1061b818fab020d0214cbf2a57ef0402480487c77"
+    },
+    {
+      "path": "scenes/S08_创作工作室.png",
+      "size_bytes": 2408184,
+      "sha256": "a9535bed1fd882594e713da8b56fae0962232490268a08f533bb1a96aeab9851"
+    },
+    {
+      "path": "tests/RIN_测试记录.md",
+      "size_bytes": 2988,
+      "sha256": "cd1e9300c680d98c7399d66a172a6101412511faa8991cd7efb0cef14caf11e3"
+    },
+    {
+      "path": "tests/T01_日光.png",
+      "size_bytes": 2668220,
+      "sha256": "1dafb1116b65ca7aca84e3e967e0ca915fd55c08d7dd99db05e699699022be20"
+    },
+    {
+      "path": "tests/T02_夜景.png",
+      "size_bytes": 2601064,
+      "sha256": "c922a448a9dcb4997db7571b3d6d56271a1c6ad58f0e94bedd2b515aed2339ff"
+    },
+    {
+      "path": "tests/T03_换发色与发型.png",
+      "size_bytes": 2577300,
+      "sha256": "17e6fd1b9f5ea033284607e2dd3ec4e57b44134b30d6f64145ff98d6e61f2d06"
+    }
+  ]
+}
